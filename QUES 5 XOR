@@ -1,0 +1,19 @@
+INP
+STA A
+CMA
+INP
+STA B
+AND A
+CMA
+STA C
+LDA B
+CMA
+AND A
+CMA 
+AND C
+CMA
+OUT
+HLT
+A:.data 1 0
+B:.data 1 0
+C:.data 1 0

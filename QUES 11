@@ -1,0 +1,9 @@
+L1:ADD A
+STA A
+INP
+SNA
+BUN L1
+LDA A
+OUT
+HLT
+A: .data 1 0

@@ -1,0 +1,18 @@
+L0: INP
+SZA
+BUN L1
+BUN L2
+L1: STA B
+AND C
+SZA
+BUN L0
+LDA A
+INC
+STA A
+BUN L0
+L2: LDA A
+OUT
+HLT
+A: .data 1 0
+B: .data 1 0
+C: .data 1 1
